@@ -1,0 +1,38 @@
+what is XAMPP | WAMP | LAMP
+ This is a server tools to run php on server.
+ php is a server side scripting language.
+ 
+ server tools :
+  XAMPP
+  X:x(cross plateform) support all OS.
+  A:A apache is a server
+  M:M stands for mysql datatbase
+  P:P stands for proceedural base language its meanse support c based language
+  P:P stands for PHP(php hypertext perperocessor)
+
+  WAMP: 
+  W:W stands for windows family only.
+  A:A apache is a server
+  M:M stands for mysql datatbase
+  P:P stands for PHP(php hypertext perperocessor)
+
+
+  LAMP: 
+  L:L stands for Linux(ubuntu) OS.
+  A:A apache is a server
+  M:M stands for mysql datatbase
+  P:P stands for PHP(php hypertext perperocessor)
+
+
+
+  IDE : ide stands for integrated device environment
+        This is a code editor
+        a) sublime text3
+        b) visual studio code
+        c) notepadd++
+        d) dreamviever
+        e) codelobestor
+        f) geni
+         
+
+Note : This is all about requred software to run php     

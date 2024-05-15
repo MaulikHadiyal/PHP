@@ -1,0 +1,36 @@
+Github is a repository systems
+Github is a server repository systems where we create or upload our file on github server.
+Github is a microsoft products.
+how to used github
+a)create an account on github.com
+b)https://github.com/
+c)after create account login with github account 
+d)after login create a new repository 
+e)after create new repository 
+   https://github.com/Brijesh1990/php9am-TTS.git
+
+
+Get all commands of github to upload local file on github server 
+download git software to upload local file on git server
+https://git-scm.com/download/win
+
+
+1)git init
+2)git add README.md
+3)git commit -m "first commit"
+4)git branch -M main
+5)git remote add origin  https://github.com/Brijesh1990/php9am-TTS.git
+6)git push -u origin main
+
+https://github.com/Brijesh1990/php9am-TTS.git
+
+how to clone a github.com file
+
+a) open git software in any folders locations
+b) write command
+      git clone url
+      git clone   https://github.com/Brijesh1990/php9am-TTS.git
+  
+
+
+Note : create account on github.com and download git software to push a local file on github server.
