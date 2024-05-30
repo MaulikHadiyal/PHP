@@ -1,0 +1,79 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.nav
+{
+    width: 100%;
+    height: auto;
+    
+}
+.nav ul li 
+{
+    
+    display: inline-block;
+    padding: 5px 25px;
+    
+}
+.nav a 
+{
+    color: rgb(233, 241, 235);
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.nav1 {
+    background-image: linear-gradient(to right, red,orange,green,blue,indigo,violet);
+}
+
+#cool {
+
+    background-image: linear-gradient(to right, red,orange,green,blue,indigo,violet);
+}
+
+body {
+    background-image: url('environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 155vh; 
+    margin: 0; 
+    padding: 0; 
+}
+
+
+.container-fluid{
+    background-image: linear-gradient(to right, red,orange,green,blue,indigo,violet);
+}
+
+.dropdown:hover .dropdown-menu 
+{
+    display: block;
+}
+.footer-navbar li 
+{
+    display: bloack;
+}
+.footer-navbar a 
+{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+@media only screen and (max-width:553px)
+{
+.nav ul 
+{
+    margin-left: 0% !important;
+}
+
+    .nav ul li 
+    {
+        display: block;
+        padding: 5px 25px;
+    }   
+}
+
+
