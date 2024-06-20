@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title> User Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+       
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+<!-- i use this in css for internal -->
+</head>
+<style>
+  
+   /* this is main grid container color and size  */
+   .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      background-color: #21f32fe1;
+      padding: 10px;
+      display: inline-block;
+      position: relative;
+      align-items: center;
+      margin: 0 auto;
+    }
+    /* this is containr for grid css oly work on div */
+    .grid-container > div {
+      background-color: rgba(255, 255, 255, 0.8);
+      text-align: center;
+      padding: 0;
+      font-size: 30px;
+    } 
+    .hi{
+      padding: auto;
+      margin: auto;
+    }
+    h5{
+      margin-bottom: 10px;
+    }
+  .name1{
+    border: 2px solid white;
+    border-radius: 5px;
+
+  }
+  /* this is button css for color and padding margin */
+    input[type="button"]
+        {
+            width: 160px;
+            height: auto;
+            padding: 8px;
+            background-color: black;
+            color: white;
+            border: none;
+            text-align: center;
+            border-radius: 20px;
+            margin-left: 53px;
+        }
+        .name1 label{
+          font-size: 16px;
+        }
+        /* this is use for button color green */
+        input[type=button]
+        {
+          align-items: center;
+          background-color: rgb(6, 85, 27);
+          margin-top: 5px;
+          margin-left: 120px;
+        }
+    </style>
+<body>
+   <!--this is main conatiner  -->
+   <!-- this div is step 1 area -->
+    <!-- i use this container to form formate -->
+     <!-- i use div for spacing proper formate   -->
+      <!-- div-1 -->
+  <div class="grid-container"> 
+         <h4 class="hi"> step 1: Your details</details></h4>
+      <div class="name1">
+         <label for="name">Name</label>
+      <input type="text" id="name" name="same" placeholder="fist and last name"><br>
+    </div>
+    <!-- div-2 for email and phone area -->
+    <div class="name1">
+      <label for="lname">Email</label>
+      <input type="email" id="email" name="email" placeholder="example@domain.com"><br>
+    </div>
+    <div class="name1">
+    <label for="name">Phone</label>
+      <input type="phone" id="phone" name="phone" placeholder="Eg. +447500000000000">
+    </div>
+<br> 
+ <!-- this div is step 2 area -->
+      <h4 class="hi"> step 2: Your Details</details></h5>
+      <div class="name1">
+      <label for="address">Address</label>
+      <textarea name="message" rows="3" required></textarea>
+    </div>
+    <div class="name1">  
+    <label for="lname">Postcode</label>
+      <input type="password" id="pscode" name="postcode"  ></div>
+      <div class="name1"> 
+      <label for="name">contry</label>
+      <input type="text" id="contry" name="contry" >
+      </div><br>
+       <!-- this div is step 3 area -->
+      <h4 class="hi">Step 3: Card details</h4>
+      <div class="name1"> 
+      <label for="name" style="margin-right: 230px;">Card type</label><br>
+      <input type="radio" id="radio" name="fav_language" value="radio"> 
+      <!-- this image i crop in crop tool in assignment -->
+      <img src="visa.jpeg " style="height: 20px;">
+      <label for="html">VISA</label>     
+      <input type="radio" id="radio" name="fav_language" value="radio">
+      <img src="amex.jpeg"style="height: 20px;">
+      <label for="html">AEMX</label>
+      <input type="radio" id="radio" name="fav_language" value="radio">
+      <img src="mastercard.jpeg" style="height: 20px;">
+      <label for="html">MasterCard</label> 
+      </div>
+      <div class="name1"> 
+      <label for="name">Security code</label>
+      <input type="number" id="scord" name="securitycode" ></div>
+      <div class="name1"> 
+      <label for="name">Name on Card</label>
+      <input type="text" id="name" name="nameoncard" placeholder="Exact name on the card" ><br>
+      </div>
+      <!-- button  -->
+           <input type="button" name="BuY IT!" value="BUY IT!">
+
+      
+    </form> 
+    
+   </div>    
+
+   
+</body>
+</html>

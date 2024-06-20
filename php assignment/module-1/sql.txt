@@ -1,0 +1,73 @@
+TABLE-1 
+CREATE TABLE `employee1`.`employee` (`EM_ID` INT NULL , `FIRST_NAME` VARCHAR(255) NOT NULL , 
+`LAST_NAME` VARCHAR(255) NOT NULL , 
+`SALARY` INT NOT NULL ,
+ `JOINING_DATE` DATE NOT NULL , 
+`DEPARTMENT` TEXT NOT NULL ,
+ PRIMARY KEY (`EM_ID`));
+SELECT * FROM `employee`
+
+INSERT INTO `employee` (`EM_ID`, `FIRST_NAME`, `LAST_NAME`, `SALARY`, `JOINING_DATE`, `DEPARTMENT`) 
+VALUES ('1', 'JOHAN', 'ABRAHAM', '1000000', '2023-01-01', 'BANKING'),
+ ('2', 'MICHAEL', 'CLERK', '800000', '2013-01-01', 'INSURANCE'),
+ ('3', 'ROY', 'THOMAS', '700000', '2013-02-01', 'BANKING'),
+ ('4', 'TOM', 'JOSE', '600000', '2013-02-01', 'INSURANCE'),
+ ('5', 'JERRY', 'PINTO', '650000', '2013-01-01', 'INSURANCE'),
+ ('6', 'PHILIP', 'MATHEW', '750000', '2013-01-01', 'SERVICES'), 
+('7', 'TESTNAME1', '123', '650000', '2013-01-01', 'SERVICES'), 
+('8', 'TESTNAME2', 'LANME$', '600000', '2013-02-01', 'INSURANCE');
+
+TABLE-2
+CREATE TABLE `incentive` (`insentive_id` INT NULL , `EMPLOYEE_REF_ID` int NOT NULL , 
+`INCENTIVE_DATE` DATE NOT NULL , 
+`INCENTIVE_AMT` INT NOT NULL);
+
+INSERT INTO `incentive` (`insentive_id`, `EMPLOYEE_REF_ID`, `INCENTIVE_DATE`, `INCENTIVE_AMT`) 
+VALUES ('1', '1', '2013-02-01', '5000'), 
+('2', '2', '2013-02-01', '3000'),
+('3', '3', '2013-02-01', '4000'),
+('3', '1', '2013-01-01', '4500'),
+('5', '2', '2013-021-01', '3500');
+
+ans a)=>SELECT First_Name AS Employee_Name
+FROM Employee;
+
+ans b)=>select FIRST_NAME, JOINING_DATE FROM employee;
+
+ans c)=>SELECT * FROM employee ORDER BY FIRST_NAME ASC, SALARY DESC;
+
+ans d)=>SELECT *
+FROM `employee`
+WHERE `FIRST_NAME` LIKE '%o%';
+
+ans e)=>SELECT *
+FROM `employee`
+WHERE MONTH(`JOINING_DATE`) = 1;
+
+ans f)=>SELECT `DEPARTMENT`, SUM(`SALARY`)
+FROM `employee`
+GROUP BY `DEPARTMENT`
+ORDER BY `SALARY` DESC;
+
+ans g)=>SELECT `DEPARTMENT`, MAX(`SALARY`)
+FROM `employee`
+GROUP BY `DEPARTMENT`
+ORDER BY `SALARY` ASC;
+
+ans h)=>.......?
+
+
+ans i)=>
+
+
+
+
+
+
+
+
+
+
+
+
+
