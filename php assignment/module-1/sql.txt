@@ -57,7 +57,7 @@ ORDER BY `SALARY` ASC;
 ans h)=>.......?
 
 
-ans i)=>
+ans i)=>select max(SALARY) as second_highest_salary from employee where SALARY < (select max(SALARY) from employee);
 
 
 
