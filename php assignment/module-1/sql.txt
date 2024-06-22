@@ -59,7 +59,9 @@ ans h)=>.......?
 
 ans i)=>select max(SALARY) as second_highest_salary from employee where SALARY < (select max(SALARY) from employee);
 
-
+j)SELECT FIRST_NAME FROM employee LEFT JOIN incentive ON employee.FIRST_NAME = incentive.insentive_id;
+i)select MAX(SALARY),department from employee GROUP by department;
+m)UPDATE employee SET FIRST_NAME='maulik',LAST_NAME='hadiyal',SALARY='10000',JOINING_DATE='2013-03-01',DEPARTMENT='BANKING';
 
 
 
