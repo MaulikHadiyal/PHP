@@ -1,0 +1,4 @@
+Configure your database credentials in the .env file.
+Verify or modify the config/database.php file if necessary.
+Use artisan commands like php artisan migrate to test the connection.
+Once your database is configured, you can use Laravel's ORM (Eloquent), Query Builder, and migrations to interact with your database.
